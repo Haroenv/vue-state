@@ -66,14 +66,18 @@ module.exports = (function () {
 
     return function install(Vue) {
         Vue.state = State;
+        Vue.state.get = State.get;
+        Vue.state.put = State.put;
+        Vue.state.post = State.post;
+        Vue.state.delete = State.delete;
 
         Object.defineProperties(Vue.prototype, {
             $state: {
                 get: function () {
-                    Vue.state.get = State.get.bind(this);
-                    Vue.state.put = State.put.bind(this);
-                    Vue.state.post = State.post.bind(this);
-                    Vue.state.delete = State.delete.bind(this);
+                    Vue.state.get.bind(this);
+                    Vue.state.put.bind(this);
+                    Vue.state.post.bind(this);
+                    Vue.state.delete.bind(this);
                     Vue.state.bind(this);
                     
                     return Vue.state;
