@@ -1,0 +1,20 @@
+{
+  "author": {
+    "name": "Websanova",
+    "url": "http://websanova.com",
+    "username": "websanova",
+    "email": "rob@websanova.com"
+  },
+  "dependencies": {},
+  "description": "Simple wrapper for vue-router `$http` to track state.",
+  "licenses": "MIT, GPL",
+  "devDependencies": {},
+  "keywords": ["vue", "vue.js", "http", "$http", "state", "wrapper"],
+  "main": "vue-state.js",
+  "name": "vue-state",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/websanova/vue-state"
+  },
+  "version": "0.1.0"
+}

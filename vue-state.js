@@ -1,3 +1,8 @@
+/*
+    https://github.com/websanova/vue-state
+    rob@websanova.com
+    Version 0.1.0
+ */
 module.exports = (function () {
 
     function State(url, options) {
@@ -28,7 +33,7 @@ module.exports = (function () {
                 this[options.track] = 'error';
 
                 if (err) {
-                    return err.apply(this, arguments);                
+                    return err.apply(this, arguments);
                 }
             };
 
