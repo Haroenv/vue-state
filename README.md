@@ -1,4 +1,5 @@
 # vue-state
+
 A simple shortcut wrapper around the `$http` method in the [vue-router](https://github.com/vuejs/vue-router) library.
 
 It allows you to track the state of a request by passing in a variable to track.
