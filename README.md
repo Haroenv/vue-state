@@ -8,7 +8,7 @@ There are thre states which are `sending`, `sent`, `error`.
 
 For example:
 
-~~~
+```vue
 <template
     {{ getItemsState }}
     
@@ -49,6 +49,4 @@ For example:
         }
     }
 </script>
-~~~
-
-
+```
